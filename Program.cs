@@ -4,12 +4,17 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine($"Suma: {Add(2, 6)}");
+            Console.WriteLine($"Multiplicación: {Multiply(2, 9)}");
         }
 
         static int Add(int x, int y)
         {
             return x + y;
+        }
+
+        static int Multiply(int x, int y)
+        {
+            return x * y;
         }
     }
 }
