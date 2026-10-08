@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine($"Suma: {Add(2, 3)}");
+            Console.WriteLine($"Suma: {Add(2, 6)}");
         }
 
         static int Add(int x, int y)
